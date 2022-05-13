@@ -1,66 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">        
-    <title>Peixe</title>
-    
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Axolotl</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 </head>
-<body>
-    <div>        
+   <body class="main-layout">
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+   
+      <header>
+         <!--comecando header -->
+         <div  class="head_top">
+            <!--menu-->
+            <div class="header">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                        <div class="full">
+                           <div class="center-desk">
+                              <div class="logo">
+                                 <a href="index.html"><img src="images/logo_axalote.png" alt="#" /></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                           </button>
+                           <div class="collapse navbar-collapse" id="navbarsExample04">
+                              <ul class="navbar-nav mr-auto">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="index.html"> Home  </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="sobre.html">About us</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="contato.html">Contact</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- /fim  header -->
+            
+            <!-- banner -->
+            <section class="banner_main">
+               <div class="container-fluid">
+                  <div class="row d_flex">
+                     <div class="col-md-6">
+                        <div class="text-bg">
+                           <h1>Axolotl</h1>
+                           <p>
+                              In recent years, many hobbyists have acquired a very friendly pet:
+                              the Axolotl, a fully aquatic salamander that is part of the same class that includes toads and frogs.
+                              These animals are originally from Mexico and can reach up to about 30 cm,
+                              are usually black or brownish, with white or albino variants (more common in captive species)
+                              and are predators of molluscs, small fish, insect larvae and crustaceans.
+                           </p>
+                           <a href="sobre.html">Read more...</a>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="text-img">
+                           <figure><img src="images/axolote.png" alt="#"/></figure>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </header>
+      <!-- end banner -->  
+      <!--area 1  -->
+      <div class="business">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <span>Axolotl: Extinction risk!</span>
+                     <h2>This amphibian lives in risk extinction because of the action of man.</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="business_box ">
+                           <iframe class="video" src="https://www.youtube.com/embed/_yOL3t4LMUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                           <p>
+                              Acording to a brazilian newsletter Super Abril (2016),
+                              “The amphibian population, although thought to be 10 years old,
+                              does not know exactly how many of them exist in the world.
+                              are operating with drought and water quality in their habitat.
+                              In addition, some non-native fish were inserted into the region's food chain,
+                              the Axolotl becomes prey.”.<br>
+                              Furthermore, there is still the illegal and uncontrolled sale of this species in many countries such as Brazil,
+                              therefore they are protected by specific bodies and according to the O Eco (2009),
+                              “for the importation and commercialization of these animals to be carried out, a license issued by IBAMA is required,
+                              in addition to registering the buyer and the trader in the National Wildlife Management System”.
+                           </p>
+                           <a class="read_more" href="sobre.html">Read more...</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- / area1  -->
+      <!-- area2 -->
+      <div class="projects">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage container">
+                     <span>Refúgio Chinampa</span>
+                     <h2>Conservation and Reactivation of the Chinampera Zone of Xochimilco</h2>
+                     <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page </p> -->
+                  </div>
+               </div>
+            </div>
 
-        <option value="A" onclick=manipulador(this.value)>A</option>
-        <option value="B" onclick=manipulador(this.value)>B</option>
-        <option value="C" onclick=manipulador(this.value)>C</option>
-        <option value="D" onclick=manipulador(this.value)>D</option>
-        <option value="E" onclick=manipulador(this.value)>E</option>
-        <option value="F" onclick=manipulador(this.value)>F</option>
-        <option value="G" onclick=manipulador(this.value)>G</option>
-        <option value="H" onclick=manipulador(this.value)>H</option>
-        <option value="I" onclick=manipulador(this.value)>I</option>
-        <option value="J" onclick=manipulador(this.value)>J</option>
-        <option value="K" onclick=manipulador(this.value)>K</option>
-        <option value="L" onclick=manipulador(this.value)>L</option>
-        <option value="M" onclick=manipulador(this.value)>M</option>
-        <option value="O" onclick=manipulador(this.value)>O</option>
-        <option value="P" onclick=manipulador(this.value)>P</option>
-        <option value="M" onclick=manipulador(this.value)>M</option>
-        <option value="Q" onclick=manipulador(this.value)>Q</option>
-        <option value="R" onclick=manipulador(this.value)>R</option>
-        <option value="S" onclick=manipulador(this.value)>S</option>
-        <option value="T" onclick=manipulador(this.value)>T</option>
-        <option value="U" onclick=manipulador(this.value)>U</option>
-        <option value="V" onclick=manipulador(this.value)>V</option>
-        <option value="W" onclick=manipulador(this.value)>W</option>
-        <option value="X" onclick=manipulador(this.value)>X</option>
-        <option value="Y" onclick=manipulador(this.value)>Y</option>
-        <option value="Z" onclick=manipulador(this.value)>Z</option>  
-    
-    </div>
-    <div>
-        <input type="text">
-    </div>
-  
-    
-    <div class="dois">
-    <img src="Wallpaper.png" alt="213">
-    
-    
-    
-    </div>
-    
-
-</body>
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <div class="projects_box container">
+                           <p>
+                              The project was financed by the Federal Heritage Cities Program, through the
+                              management of the Municipality of Xochimilco, is part of a comprehensive strategy that, for
+                              little more than 15 years, is carrying out the Laboratory of Ecological Restoration
+                              from the Institute of Biology (IBUNAM) of the National Autonomous University of Mexico
+                              (UNAM), in close coordination with chinamperos and producers of Xochimilco with
+                              objective of conserving and protecting the cultural and ecological heritage of the chinampera zone
+                              of Xochimilco, a site recognized by UNESCO as a world heritage site.
+                           </p>
+                           <a class="read_more" href="sobre.html">Read more...</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- /area2 -->
+      <!-- comentario-->
+      <div class="section">
+         <div class="container">
+            <div id="" class="Testimonial">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Axolotl Axolotl</h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3">
+                     <div class="Testimonial_box">
+                        <i><img src="images/axolote.png" alt="#"/></i>
+                     </div>
+                  </div>
+                  <div class="col-md-9">
+                     <div class="Testimonial_box">
+                        <h4>Axolotl Axolotl</h4>
+                        <p>This cute animal is very special and must be preserved,
+                           are we really going to let these unique beings disappear?</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+     
+      <!-- /comentario -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 ">
+                     <div class="cont">
+                        <h3> <strong class="multi"> Developed By Class 3713 - TSI - IFMS • 2022</strong><br>
+                           Mr. TIMÓTEO
+                        </h3>
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>©Developed By Class 3713 - TSI - IFMS <a href="#">• 2022</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- /footer -->
+      <!-- arquivos Javascript-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
 </html>
 
-<script text="javascript/text">     
-    
-            
-    function manipulador(e) { 
-    let t = window.document.querySelector("input").value; 
-    window.document.querySelector("input").value = t + e  
-    console.log('evento: ' + e);    
-    }          
-    </script>
